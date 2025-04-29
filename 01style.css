@@ -1,0 +1,200 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.heading {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  background-color: #999;
+  padding: 10px 20px;
+}
+
+.btn {
+  padding: 10px 40px;
+  border: 1px solid #999;
+  background-color: #e0e0e0;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #333;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #d5d5d5;
+}
+
+.canvas {
+  text-align: center;
+}
+
+#grey {
+  background-color: grey;
+}
+
+#White {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#Blue {
+  background-color: blue;
+}
+
+#Yellow {
+  background-color: yellow;
+}
+
+.button{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #000;
+}
+
+
+/* Reset default styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Base styles (mobile-first)
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: clamp(0.5rem, 2vw, 1rem);
+  min-height: 100vh;
+}
+
+Navigation
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(0.5rem, 1vw, 0.75rem);
+  background-color: #999;
+  padding: clamp(0.5rem, 2vw, 1rem);
+  margin-bottom: clamp(0.5rem, 2vw, 1rem);
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  max-width: clamp(10rem, 40vw, 12rem);
+  padding: clamp(0.5rem, 2vw, 0.75rem);
+  border: 1px solid #333;
+  background-color: #e0e0e0;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+  font-size: clamp(0.9rem, 3vw, 1rem);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d5d5d5;
+}
+
+Main content
+.canvas {
+  text-align: center;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.canvas h1 {
+  font-size: clamp(1.25rem, 5vw, 2rem);
+  margin-bottom: clamp(0.5rem, 2vw, 1rem);
+}
+
+.canvas h2 {
+  font-size: clamp(0.9rem, 3vw, 1.25rem);
+  line-height: 1.4;
+  margin-top: clamp(0.5rem, 2vw, 1rem);
+}
+
+Color buttons
+.button {
+  width: clamp(3rem, 12vw, 4rem);
+  height: clamp(3rem, 12vw, 4rem);
+  display: inline-block;
+  margin: clamp(0.5rem, 2vw, 0.75rem);
+  border-radius: 8px;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  /* Make spans focusable for accessibility */
+  /* outline: none;
+}
+
+Visual feedback on hover and click
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button:focus, .button:active {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+#grey {
+  background-color: grey;
+}
+
+#White {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#Blue {
+  background-color: blue;
+}
+
+#Yellow {
+  background-color: yellow;
+}
+
+Single media query for larger screens (≥768px)
+@media (min-width: 768px) {
+  .heading {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn {
+    width: auto;
+    padding: clamp(0.5rem, 2vw, 0.75rem) clamp(1.5rem, 4vw, 2rem);
+    max-width: none;
+  }
+
+  .canvas {
+    max-width: 800px;
+  }
+
+  .button {
+    width: clamp(5rem, 8vw, 6rem);
+    height: clamp(5rem, 8vw, 6rem);
+    margin: clamp(0.75rem, 2vw, 1rem);
+  }
+
+  .canvas h1 {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+  }
+
+  .canvas h2 {
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+  }
+}  */ 
